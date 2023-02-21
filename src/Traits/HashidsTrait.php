@@ -10,6 +10,18 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 trait HashidsTrait
 {
     /**
+     * Boot the hashids trait for the model.
+     *
+     * @return void
+     */
+    public static function bootHashidsTrait()
+    {
+        static::retrieved(function (self $model) {
+            $model->append('hashid');
+        });
+    }
+
+    /**
      * Get the value of the model's route key.
      *
      * @throws \Exception
