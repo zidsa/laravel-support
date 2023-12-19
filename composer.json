@@ -39,7 +39,7 @@
         }
     ],
     "require": {
-        "php": "^8.0.0",
+        "php": "^8.1",
         "illuminate/auth": "^8.0.0 || ^9.0.0 || ^10.0.0",
         "illuminate/bus": "^8.0.0 || ^9.0.0 || ^10.0.0",
         "illuminate/contracts": "^8.0.0 || ^9.0.0 || ^10.0.0",
@@ -47,7 +47,7 @@
         "illuminate/routing": "^8.0.0 || ^9.0.0 || ^10.0.0",
         "illuminate/support": "^8.0.0 || ^9.0.0 || ^10.0.0",
         "illuminate/validation": "^8.0.0 || ^9.0.0 || ^10.0.0",
-        "watson/validating": "^7.0.0",
+        "watson/validating": "^8.0.0",
         "spatie/laravel-schemaless-attributes": "^2.3.0"
     },
     "require-dev": {
