@@ -13,7 +13,7 @@ trait ConsoleTools
      *
      * @return void
      */
-    protected function publishesMigrations(string $package, bool $isModule = false): void
+    protected function publishesPackageMigrations(string $package, bool $isModule = false): void
     {
         if (! $this->publishesResources()) {
             return;
